@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/mail_teat_war_exploded" >
+    <Resource name="jdbc/mysqll"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              username="yuan"
+              password="0000"
+              maxActive="20"
+              maxIdle="20"
+              url="jdbc:mysql://localhost:3306/test?serverTimezone=UTC"
+    />
+</Context>
